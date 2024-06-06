@@ -29,10 +29,49 @@
                   <span class="ms-3">Dashboard</span>
                </a>
             </li>
+
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   aria-controls="dropdown-example0" data-collapse-toggle="dropdown-example0">
+                  <span class="material-symbols-outlined">
+                     folder_managed
+                  </span>
+                  <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Direccion General</span>
+                  <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                     viewBox="0 0 10 6">
+                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 1 4 4 4-4" />
+                  </svg>
+               </button>
+               <ul id="dropdown-example0" class="hidden py-2 space-y-2">
+                  <li>
+                     <a href="#"
+                        class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Aprobacion
+                        de servicios</a>
+                  </li>
+                  <li>
+                     <a href="#"
+                        class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Estructura
+                        organica</a>
+                  </li>
+                  <li>
+                     <a href="#"
+                        class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Datos
+                        estadisticos</a>
+                  </li>
+                  <li>
+                     <a href="#"
+                        class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Bitacora</a>
+                  </li>
+               </ul>
+            </li>
+
+
+            <li>
+               <button type="button"
+                  class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  aria-controls="dropdown-example1" data-collapse-toggle="dropdown-example1">
                   <span class="material-symbols-outlined">
                      badge
                   </span>
@@ -43,9 +82,9 @@
                         d="m1 1 4 4 4-4" />
                   </svg>
                </button>
-               <ul id="dropdown-example0" class="hidden py-2 space-y-2">
+               <ul id="dropdown-example1" class="hidden py-2 space-y-2">
                   <li>
-                     <a href="#"
+                     <a href="/personas"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Personas</a>
                   </li>
                   <li>
@@ -67,7 +106,7 @@
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  aria-controls="dropdown-example6" data-collapse-toggle="dropdown-example6">
+                  aria-controls="dropdown-example2" data-collapse-toggle="dropdown-example2">
                   <span class="material-symbols-outlined">
                      clinical_notes
                   </span>
@@ -78,7 +117,7 @@
                         d="m1 1 4 4 4-4" />
                   </svg>
                </button>
-               <ul id="dropdown-example6" class="hidden py-2 space-y-2">
+               <ul id="dropdown-example2" class="hidden py-2 space-y-2">
                   <li>
                      <a href="#"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Citas</a>
@@ -96,7 +135,7 @@
 
                </ul>
             </li>
-            
+
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
@@ -159,12 +198,12 @@
                </ul>
             </li>
 
-           
+
 
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  aria-controls="dropdown-example2" data-collapse-toggle="dropdown-example2">
+                  aria-controls="dropdown-example5" data-collapse-toggle="dropdown-example5">
                   <span class="material-symbols-outlined">
                      radiology
                   </span>
@@ -175,7 +214,7 @@
                         d="m1 1 4 4 4-4" />
                   </svg>
                </button>
-               <ul id="dropdown-example2" class="hidden py-2 space-y-2">
+               <ul id="dropdown-example5" class="hidden py-2 space-y-2">
                   <li>
                      <a href="#"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Estudios</a>
@@ -189,16 +228,16 @@
                </ul>
             </li>
 
-            
 
 
 
-            
+
+
 
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  aria-controls="dropdown-example5" data-collapse-toggle="dropdown-example5">
+                  aria-controls="dropdown-example6" data-collapse-toggle="dropdown-example6">
                   <span class="material-symbols-outlined">
                      pulmonology
                   </span>
@@ -209,7 +248,7 @@
                         d="m1 1 4 4 4-4" />
                   </svg>
                </button>
-               <ul id="dropdown-example5" class="hidden py-2 space-y-2">
+               <ul id="dropdown-example6" class="hidden py-2 space-y-2">
                   <li>
                      <a href="#"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Organos</a>
@@ -231,7 +270,7 @@
             <li>
                <button type="button"
                   class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                  aria-controls="dropdown-example1" data-collapse-toggle="dropdown-example1">
+                  aria-controls="dropdown-example7" data-collapse-toggle="dropdown-example7">
                   <span class="material-symbols-outlined">
                      surgical
                   </span>
@@ -242,7 +281,7 @@
                         d="m1 1 4 4 4-4" />
                   </svg>
                </button>
-               <ul id="dropdown-example1" class="hidden py-2 space-y-2">
+               <ul id="dropdown-example7" class="hidden py-2 space-y-2">
                   <li>
                      <a href="#"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Cirugia</a>
@@ -256,7 +295,7 @@
                </ul>
             </li>
 
-            
+
 
             <li>
                <a href="/"
@@ -267,16 +306,18 @@
                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
                   </svg>
-                  <span class="flex-1 ms-3 whitespace-nowrap">Log Out</span>
+                  <span class="flex-1 ms-3 whitespace-nowrap">Cerrar Sesión</span>
                </a>
             </li>
-            
+
          </ul>
       </div>
    </aside>
 
    <div class="p-4 sm:ml-64">
-      <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+
+      <router-view />
+      <!-- <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
          <div class="grid grid-cols-3 gap-4 mb-4">
             <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800">
                <p class="text-2xl text-gray-400 dark:text-gray-500">
@@ -400,5 +441,5 @@
                </p>
             </div>
          </div>
-   </div>
+   </div> -->
 </div></template>
