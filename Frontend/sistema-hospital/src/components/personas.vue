@@ -86,8 +86,9 @@
         </div>
 
         <button type="submit" class="text-white bg-teal-600 py-1.5 px-4 rounded font-bold w-full">
-  <a href="/inicio">Registrar</a>
+  <a href="/inicio">Crear</a>
 </button>
+
 
 
 

@@ -5,6 +5,8 @@ import LoginView from '@/components/login.vue'
 import Sidebar from '@/components/sidebar.vue'
 import usuarios from '@/components/usuarios.vue'
 import personas from '@/components/personas.vue'
+import LotesMed from '@/components/LotesMed.vue'
+import Personal from '@/components/Personal.vue'
 
 
 const router = createRouter({
@@ -25,16 +27,14 @@ const router = createRouter({
       name: 'inicio',
       component: Sidebar,
       children:[
-        {path:'/personas', name:'personas',component:personas}
+        {path:'/personas', name:'personas',component:personas},
+        {path:'/LotesMed', name:'LotesMed',component:LotesMed},
+        {path:'/Personal', name:'Personal',component:Personal}
       ]
         
   
-    },
-    // {
-    //   path: '/usuarios',
-    //   name: 'usuarios',
-    //   component: usuarios
-    // },
+    }
+    
     // {
     //   path: '/personas',
     //   name: 'personas',
